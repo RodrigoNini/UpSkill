@@ -1,5 +1,6 @@
 package TrabalhoAutonomo;
 
+import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -136,6 +137,7 @@ public class aula4 {
         //sumTo100For();
         //System.out.println(diviserCount(5));
         //System.out.println(sumDivisers(5));
+        System.out.println("hello World");
     }
 
 }
