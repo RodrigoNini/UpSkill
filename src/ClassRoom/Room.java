@@ -14,7 +14,7 @@ public class Room {
         students = new Student[capacity];
     }
 
-    public Student[] addStudents(Student student){
+    public void addStudents(Student student){
             if(studentCount<capacity){
                 students[studentCount] = student;
                 studentCount++;
@@ -22,21 +22,20 @@ public class Room {
         }else{
                 System.out.println("Capacidade ultrapassada, não foi possivel adicionar aluno.");
             }
-return students;
     }
 
-    public Student[] removeStudent(Student student){
+    public void removeStudent(Student student){
         for (int i = 0; i < capacity; i++) {
             if(student==students[i]){
                 students[i] = null;
             }
         }
-        return students;
     }
 
     public void getStudentsInRoom(){
         for (int i = 0; i < capacity; i++) {
-            System.out.println(students[i]);
+            Student a = students[i];
+            System.out.println("Lugar " + a);
         }
     }
 }

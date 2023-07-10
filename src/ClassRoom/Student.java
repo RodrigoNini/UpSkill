@@ -14,4 +14,12 @@ public class Student {
     public int getId() {
         return id;
     }
+
+    @Override
+    public String toString() {
+        return "Estudante{" +
+                "nome='" + name +
+                ", numeroAluno=" + id +
+                '}';
+    }
 }
