@@ -96,6 +96,9 @@ public class aula5 {
         }
         return a;
     }
+
+
+
     public static void main(String[] args) {
         //displayArray(firstHalf(new int[]{5,4,9,6,3,1,0,7,8}, false));
         //displayArray(mergeV(new int[]{5,4,9,6}, new int[]{1,2,9,6}));
