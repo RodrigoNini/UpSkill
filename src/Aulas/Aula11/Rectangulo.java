@@ -16,17 +16,19 @@ public class Rectangulo implements FiguraGeometricaPlana {
         this.width = width;
     }
 
+
     @Override
     public void getNomeFiguraPlana() {
-        System.out.println(name);
+
+    }
 
     @Override
     public int getArea() {
-        return (int) (width*length);
+        return 0;
     }
 
     @Override
     public int getPerimetro() {
-        return (int)((width*4)+(length*4)+(height*4));
+        return 0;
     }
 }
