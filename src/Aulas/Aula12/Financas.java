@@ -1,6 +1,8 @@
 package Aulas.Aula12;
 
-public class Financas {
+import java.util.Comparator;
+
+public class Financas implements Comparable<Financas> {
     private int senha;
     private String nome;
     private long nif;
@@ -21,5 +23,10 @@ public class Financas {
 
     public long getNif() {
         return nif;
+    }
+
+    @Override
+    public int compareTo(Financas outraFinanca) {
+        return Integer.compare(this.senha, outraFinanca.getSenha());
     }
 }

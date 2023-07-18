@@ -19,18 +19,19 @@ public class Main {
         carros.put("78-JM-98", mercedes);
         System.out.println(carros);
         carros.remove("78-JM-98");
-        System.out.println(carros);*/
+        System.out.println(carros);
 
         Financas rodrigo = new Financas(2,"Rodrigo", 255199066l);
         Financas milene = new Financas(6, "Milene", 536618357l);
         Financas otavio = new Financas(1,"Otavio", 81651516l);
         Financas raquel = new Financas(8, "Raquel", 536987357l);
-        Queue<Financas> fila = new PriorityQueue<>();
+        PriorityQueue<Financas> fila = new PriorityQueue<>();
         fila.add(rodrigo);
         fila.add(milene);
         fila.add(otavio);
         fila.add(raquel);
-        System.out.println(fila);
+        System.out.println(fila.peek().getNome());*/
+
 
     }
 }
