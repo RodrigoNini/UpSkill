@@ -27,18 +27,18 @@ public class Aluno implements Comparator<Aluno> {
 
 
     // Comparador por número de aluno
-    public static Comparator<Aluno> comparadorNumeroAluno = new Comparator<Aluno>() {
+    /*public static Comparator<Aluno> comparadorNumeroAluno = new Comparator<Aluno>() {
         @Override
         public String compare(Aluno aluno1, Aluno aluno2) {
             return Integer.compare(aluno1.getName(), aluno2.getNumber());
         }
-    };
+    };*/
 
     // Comparador por nome de aluno
-    public static Comparator<Aluno> comparadorNomeAluno = new Comparator<Aluno>() {
+/*    public static Comparator<Aluno> comparadorNomeAluno = new Comparator<Aluno>() {
         @Override
         public int compare(Aluno aluno1, Aluno aluno2) {
             return aluno1.getName().compare(aluno2.getNumber());
         }
-    };
+    };*/
 }
