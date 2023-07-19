@@ -1,0 +1,2 @@
+almoço;15.0
+bicileta;200.0

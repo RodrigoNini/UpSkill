@@ -1,0 +1,5 @@
+Carro;Cliente;Reparação;Valor
+CD-17-92;Mario Otavio;Porta;100.0
+YT-89-52;Rita Silva;Embraiagem;350.0
+TT-55-27;Manuel Pereira;Pára-choques;200.0
+EA-34-72;Vitor Alberto;Vidro;150.0
