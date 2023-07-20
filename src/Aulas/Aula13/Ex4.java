@@ -13,9 +13,9 @@ public class Ex4 {
             Scanner newReader = new Scanner(new File("ficheiros/mapa1.txt"));
             while(reader.hasNextLine()){
                 String linha = reader.nextLine();
-                String[] fodeu = linha.split("");
+                String[] something = linha.split("");
                 for (String a:
-                     fodeu) {
+                        something) {
                     if(a == "#"){
                         writer.print("W");
                 }else {
